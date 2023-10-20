@@ -1,0 +1,14 @@
+{
+    "websites": ["te", "cm", "cs", "cv", "eb", "tc", "ot"],
+    "radius": 300,
+    "zipcode": 40511,
+    "resultsPerPage": 50,
+    "tokens": ["380293626f060c854b555fd60f92bbeb399fe3cd13efea655359fd9098429f95",
+         "fdbcf7b451cff394d00abf2dfadbcb45c6def4b2a81128f379fdbc22d6060d68",
+         "f76dc87414636e2ac48cae2df286e7b581b797227bbe5d557173d5e262c99c8d",
+         "58782206a748b346a2e5dac7f9db31140565ba1e3e16836bd58f9b1a747855d2",
+         "7644c66a7fa80a50d6da8e5366b62741e24fa5810c4e5f57a6d49d0517a2137c",
+         "ebd09d68a808ca877f2b0fb75432c06778ae4bdbe81a8e8fb4f18390d4c927de",
+         "0494e6f18b5e64aa9d6b4adaed2dd4fb213eb8db39f76acd75ecfcf595881c20"]
+
+}
