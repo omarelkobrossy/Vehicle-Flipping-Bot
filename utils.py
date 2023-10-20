@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 with open('settings.json', 'r') as f:
     settings = json.load(f)
 
-openai.api_key = "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"
+openai.api_key = #Put your api key here
     
 def getVehicleEstimate(vin, desc, driver):
     url = 'https://www.carfax.com/value/'
