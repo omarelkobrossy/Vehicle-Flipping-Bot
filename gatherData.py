@@ -67,10 +67,12 @@ if user_prompt == 1:
     db_connection.close()
 
 elif user_prompt == 2:
-    #TODO Add the logic to distinguish a good flippable car
+    #Add the logic to distinguish a good flippable car
     rows = utils.loadDB()
     for row in rows:
-        price, estimate, mileage = row[3], row[4], row[5]
+        name, price, estimate, mileage, url = row[2], row[3], row[4], row[5], row[7]
+        if estimate-price >= 2000: 
+            print(f"{name}\nList Price: {price}\nEstimate: {estimate}\nMileage: {mileage}\nURL: {url}\n==============================")
         
 elif user_prompt == 3:
     validate = input("Are you sure you want to clear the Database? (Type: I agree)\n*")
